@@ -1,0 +1,40 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    height: 65px;
+    /* align-items: center; */
+}
+.nav__black{
+background-color: black; 
+opacity: 0.9; 
+transition: all .6s;
+transition-timing-function: ease-in;
+}
+
+
+
+.nav__logo {
+    padding-left: 30px;
+    padding-top: 10px;
+    object-fit: contain;
+    width: 12%;
+}
+.nav__avatar{
+    padding-top: 10px;
+    padding-right:20px;
+    object-fit: contain;
+    width:8%;
+    align-items: center;
+    justify-items: center;
+}
+@media  screen and (max-width: 600px) {
+    .nav {
+      height: 50px;
+    
+      }
+
+  }
